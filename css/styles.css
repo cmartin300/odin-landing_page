@@ -3,3 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: Roboto, sans-serif;
+  height: 100vh;
+}
+
+.header,
+.footer,
+.hero-section {
+  background-color: #1f2937;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+}
