@@ -115,8 +115,48 @@ body {
   color: #1f2937;
 }
 
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.author {
+  text-align: right;
+  padding-top: 8px;
+  font-weight: 700;
+}
+
+.cta-section {
+  background-color: #3882f6;
+  margin: 80px 64px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-main {
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.cta-secondary {
+  color: #e5e7eb;
+}
+
+button {
+  padding: 5px 16px;
+  border-radius: 5px;
+  border: 1px solid #3882f6;
+  color: #f9faf8;
+  background-color: #3882f6;
+}
+
+.cta-section button {
+  border: 1px solid #f9faf8;
+}
+
 .footer {
-  padding: 16px 48px;
+  padding: 24px 48px;
   text-align: center;
   color: #e5e7eb;
 }
